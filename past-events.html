@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jadavpur University Film Society</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="img/logo.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>    /* Bottom to Top Styling for About, Magazine, Past Events, Contact Pages */
+        .btn-about-top {
+            width: 50px;  
+            height: 50px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0; 
+            border-radius: 50%; 
+            font-size: 24px; 
+            background-color: black;
+            color: white;
+            position: fixed;
+            bottom: 20px; 
+            right: 20px; 
+            display: none; 
+            z-index: 1000; 
+        }
+        .btn-about-top:hover,
+        .btn-about-top:focus,
+        .btn-about-top:active {
+            background-color: black; 
+            color: white; 
+            text-decoration: none; 
+            outline: none; 
+            box-shadow: none;
+        }
+        .btn-about-top i {
+            margin: 0;
+        }
+        </style>
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" style="width: 3rem; height: 3rem; color: black;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.png" alt="Your Image" style="width: 40px; height: 40px; object-fit: cover; margin-right: 10px;">
+            <h2 class="m-0 text-primary" style="font-family: 'Courier Prime', Courier, monospace; color: black !important;">Jadavpur University Film Society</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="magazine.html" class="nav-item nav-link">Magazine</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="upcoming-events.html" class="dropdown-item">Upcoming Events</a>
+                        <a href="past-events.html" class="dropdown-item">Past Events</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <div class="header-container py-5 mb-5">
+        <div class="header-content py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="page-title">Past Events</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <!-- Events Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="event wow fadeInLeft" data-wow-delay="0.1s">
+                    <img src="img/events1.jpg" alt="Event 1" class="img-fluid">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Jojo Rabbit and World of Glory</h3>
+                        <p>Our first screening event after forming the Jadavpur University Film Society was both thrilling and nerve-racking. It was the screening of Jojo Rabbit and World of Glory. We were uncertain about the turnout, but to our delight, the event was a huge success. The Vivekananda Hall was packed, and the audience's engagement exceeded our expectations. Jojo Rabbit brought a mix of humor and profound seriousness, leaving the audience with a lasting impression. The film's comedic elements had everyone laughing, but its deep and serious tone at the end really hit home. In contrast, World of Glory provided a beautiful cinematic experience, captivating everyone with its artistic presentation. Overall, the event was a milestone for our newly formed society, and the positive reception has motivated us to plan more screenings in the future.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInRight" data-wow-delay="0.2s">
+                    <img src="img/events2.jpg" alt="Event 2" class="img-fluid">
+                    <div class="writeup-box typewriter-font">
+                        <h3>A Tale of Two Sisters</h3>
+                        <p>On September 23, 2022, the Film Society of Jadavpur University hosted a screening of the renowned South Korean horror film, "A Tale of Two Sisters" (2003), directed by Kim Jee-woon. This event, held at the university's auditorium at the World View center, attracted a diverse audience comprising students, faculty, and cinephiles. The screening was followed by a discussion session led by Prof. Arijeet Mandal, a noted film scholar specializing in Horror cinema. 
+                        The screening of "A Tale of Two Sisters" at Jadavpur University was a resounding success, offering attendees an opportunity to engage with a seminal work of Korean horror cinema. The event underscored the film's artistic and cultural significance, while the post-screening discussion facilitated a deeper understanding of its thematic richness and narrative complexity. As Korean cinema continues to gain international acclaim, events such as this serve as vital platforms for academic and cultural exchange, enriching the university's intellectual landscape and fostering a greater appreciation for global cinematic traditions.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInLeft" data-wow-delay="0.3s">
+                    <img src="img/events3.png" alt="Event 3">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Adieu Godard</h3>
+                        <p>Panel discussion on “Subtitles in Cinema: Of Tales That Lie Beyond”. The film “Adieu Godard” was screened and won at the Kolkata International Film Festival. There was an interview session with director Amartya Bhattacharyya following the screening. Adieu Godard is a socio-cultural comic tribute to the legendary French filmmaker Jean-Luc Godard. Shot in beautiful black-and-white by the film's director Amartya Bhattacharyya, Adieu Godard is a celebration of both cinema and personal enlightenment that pays charming tribute to the fêted French auteur.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInRight" data-wow-delay="0.4s">
+                    <img src="img/events4.jpg" alt="Event 4">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Godard Mon Amour</h3>
+                        <p>Screening of “A Woman Is A Woman”  and “Weekend” followed by a session with Prof. Shubhajit Chatterjee and Dr. Anindya Sengupta respectively. The screenings were housefull both days along with the discussion. Both the films are a masterclass in style and experimentation. Weekend is a stark departure in tone and style. It's a satirical, almost apocalyptic critique of consumer society. The film's depiction of violence, decay, and societal breakdown serves as a powerful commentary on the state of the world in the late 1960s. It's less about narrative cohesion and more about provoking thought and discomfort. Characters in A Woman Is a Woman directly address the audience, and in Weekend, there are intertitles and monologues that break the narrative illusion. Both films contain self-referential elements. The discussion was followed by a lively Q&A session with the audience. Questions ranged from inquiries about specific scenes and techniques to broader questions about Godard's political views and their influence on his work.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInLeft" data-wow-delay="0.5s">
+                    <img src="img/events5.jpg" alt="Event 5">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Curtain Call 2023</h3>
+                        <p>Freshers' Orientation event that welcomed the new into the Film Society. Theme of the event was dressing up as characters of films and television series. A madlibs theatre, a movie quiz, enacting characters from movies were a few highlights from the event.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInRight" data-wow-delay="0.6s">
+                    <img src="img/events6.jpg" alt="Event 6">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Chaalchitra 2023</h3>
+                        <p>Short film-making competition organised by JU Film Society under the banner of Ibtida 2023. A large number of submissions were received from various colleges and universities from all across India. 
+                        Chaalchitra welcomed entries from amateurs and students. The films are evaluated by a panel of esteemed judges comprising filmmakers, critics, and academicians who are well-versed in the art and craft of cinema. The panel looks for originality, technical proficiency, emotional impact, and adherence to the themes. The competition seeks to foster a lively community of filmmakers who are enthusiastic about narrative. The judges included - Arpan Basak (Filmmaker), Shantanu Chakraborty(Film critic) and Subhajit Chatterjee (Film Scholar). </p>
+                    </div>
+                </div>
+                <div class="event wow fadeInLeft" data-wow-delay="0.7s">
+                    <img src="img/events7.jpg" alt="Event 7">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Cinema Paradiso 2023</h3>
+                        <p>Screening of critically acclaimed films - Interview(1971), Joyland(2022) and Cinema Paradiso(1988). The screenings were all housefull. A massive number of submissions were received for reel making, poster making competition. The Quiz competition of 2 rounds was also well conducted. The judging criteria for the cinema poster making competition typically emphasized creativity, originality, thematic relevance, and aesthetic appeal. In addition to the poster competition, there was a quiz contest that functioned as an intellectual warfare for cinephiles and film aficionados alike. The quiz competition tested competitors' knowledge of film history, directors, actors, genres, and cinematic methods.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInRight" data-wow-delay="0.8s">
+                    <img src="img/events8.jpg" alt="Event 8">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Jhilli Panel Discussion</h3>
+                        <p>An interesting panel discussion with the cast and crew of the film ‘Jhilli” (2023) directed by Ishaan Ghose. The panel saw the likes of Bitan Islam, Sourav Nayak, Aneesh Basu, Soumajit Ghosh and Rajarshi Das. The film stands out in the contemporary Bengali cinema landscape for its unique narrative style, compelling storytelling, and profound thematic explorations. The film presents a moving portrait of their existence, emphasizing both the hard reality and the minor pleasures of their lives. It digs into topics of poverty, survival, and the human spirit's perseverance, providing a window into a world that is sometimes disregarded by mainstream culture. It has also been appreciated for its artistic merit, with many considering it a significant contribution to Bengali cinema.</p>
+                    </div>
+                </div>
+                <div class="event wow fadeInLeft" data-wow-delay="0.9s">
+                    <img src="img/events9.png" alt="Event 9">
+                    <div class="writeup-box typewriter-font">
+                        <h3>Curtain Call 2024</h3>
+                        <p>Freshers' Orientation was an event that welcomed new members to the Film Society. The theme of the event was dressing up like characters from films and television shows. Some of the event's highlights were a madlibs theatre, a movie quiz, and enacting movie characters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Events End -->
+<!-- Footer Start -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box typewriter-font">
+            <h3>Quick Links</h3>
+            <a href="index.html"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="about.html"><i class="fas fa-arrow-right"></i> About Us</a>
+            <a href="magazine.html"><i class="fas fa-arrow-right"></i>Magazine</a>
+            <a href="past-events.html"><i class="fas fa-arrow-right"></i>Past Events</a>
+            <a href="upcoming-events.html"><i class="fas fa-arrow-right"></i>Upcoming Events</a>
+            <a href="contact.html"><i class="fas fa-arrow-right"></i>Contact</a>
+            <a href="JUFS_guidelines.pdf" download><i class="fas fa-arrow-right"></i>Terms and Conditions</a>
+        </div>
+        <div class="box typewriter-font">
+            <h3>Contact Info</h3>
+                <a href="mailto:jadavpuruniversityfilmsociety@gmail.com"><i class="fas fa-envelope"></i> For any queries, mail us at jadavpuruniversityfilmsociety@gmail.com
+                </a>
+            <a href="https://maps.app.goo.gl/m5ExSkUFivCrSubZ7">
+                <i class="fas fa-map-marker-alt"></i> Address: OPT Hall,Jadavpur University,188, Raja Subodh Chandra Mallick Rd,Jadavpur, Kolkata, West Bengal 700032
+            </a>
+        </div>
+        <div class="box typewriter-font">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/jadavpuruniversityfilmsociety">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com/jadavpuruniversityfilmsociety/">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+    </div>
+    <div class="credit typewriter-font">Copyright &#169; Jadavpur University Film Society | All Rights Reserved</div>
+</section>
+<!-- Footer End -->
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-about-top"><i class="bi bi-arrow-up"></i></a>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Back to top JS code for About, Magazine, Past events and Contact Page -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var backToTopButton = document.querySelector('.btn-about-top');   
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 100) 
+                { 
+                    backToTopButton.style.display = 'flex';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+            backToTopButton.addEventListener('click', function (e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
